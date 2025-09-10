@@ -5,7 +5,7 @@ import MapView from "./components/MapView";
 import LogSheet from "./components/LogSheet";
 import Showtrips from "./components/Showtrips";
 
-import { generateLogs } from "./api";
+
 import type { Trip, DailyLog } from "./types";
 
 function App() {
