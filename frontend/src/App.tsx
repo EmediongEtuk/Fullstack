@@ -13,12 +13,7 @@ function App() {
     const [logs, setLogs] = useState<DailyLog[]>([]);
     const navigate = useNavigate();
 
-    const handleGenerateLogs = async () => {
-        if (trip) {
-            const res = await generateLogs(trip.id);
-            setLogs(res.data);
-        }
-    };
+   
 
     return (
         <div className="container py-4">
