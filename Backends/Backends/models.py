@@ -19,11 +19,6 @@ class DailyLog(models.Model):
     off_duty_hours = models.FloatField(default=0)
     sleeper_hours = models.FloatField(default=0)
 
-<<<<<<< HEAD
-    # New: structured duty segments (list of blocks)
-=======
-    # ✅ New: structured duty segments (list of blocks)
->>>>>>> 3277a35080038e30fb1eb27bcc6ccab6c8fc062e
     duty_segments = models.JSONField(default=list)
 
     def __str__(self):
